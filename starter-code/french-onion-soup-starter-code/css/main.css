@@ -1,9 +1,47 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
+.image {
+  position: relative;
+  width: 100%;
+  text-align:center;
+}
+
+.instructionImage {
+  text-align:center;
+  padding-top: 10px;
+}
+
+h2 {
+  position: absolute;
+  top: 400px;
+  left: 0;
+  width:100%;
+  color: white;
+  text-align:center;
+  font-size: 60px;
+}
+
+body {
+    font-family: Arial;
+}
+
+.description {
+  margin-top:20px;
+}
+
+.content {
+  width:50%;
+  margin: 0 auto;
+}
+
+ul {
   margin: 0;
 }
-/*Import the font and set the default size*/
-html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+ul.dashed {
+  list-style-type: none;
+}
+ul.dashed > li {
+  text-indent: -5px;
+}
+ul.dashed > li:before {
+  content: "- ";
+  text-indent: -5px;
 }
